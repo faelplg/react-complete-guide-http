@@ -19,6 +19,10 @@ class NewPost extends Component {
       console.log('response', response);     
     });
   };
+  
+  componentDidMount() {
+    console.log('this.props', this.props);
+  }
 
   render() {
     return (
