@@ -1,4 +1,6 @@
 import React from 'react';
+// import {withRouter} from 'react-router-dom';
+
 import classes from './Post.module.css';
 
 const Post = (props) => (
@@ -11,3 +13,4 @@ const Post = (props) => (
 );
 
 export default Post;
+// export default withRouter(Post);
